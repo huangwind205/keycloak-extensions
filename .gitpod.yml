@@ -4,8 +4,7 @@
 
 tasks:
   - init: ./mvnw clean install -DskipTests=false
-  - command: >
-      docker-compose up -d
+  - command: docker-compose up
 
 ports:
 - port: 8088
